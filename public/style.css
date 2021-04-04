@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.header{
+  height: 100px;
+  background-color:rgb(245, 159, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between
+}
+#logo{
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.logocontainer{
+  width: 200px;
+}
+.title{
+  width: 200px;
+  margin-right: 600px;
+  color: white;
+}
+.info{
+  height: 320px;
+  background-color:rgb(153, 153, 153);
+}
+
+.join{
+  color: white;
+}
+.founders
+{
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+#maenakaji{
+  width: 220px;
+  height: 250px;
+  border-radius: 10px;
+}
+.rescue{
+  height: 500px;
+  background-color:rgb(153, 153, 153);
+}
+.rescue01{
+  width: 500px;
+  margin: 0 auto;
+}
+.rescue01 h1{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.cases-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.case img{
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+}
+.footer{
+  margin-top: 20px;
+  height: 300px;
+  background-color: rgb(47, 47, 47);
+}
+.members{
+  padding: 20px;
+}
+.contacts h1{
+  color: white;
+  text-align: center;
+}
+.members p{
+  color: rgb(219, 219, 219);
+  font-size: 15px;
+}
+.note p{
+  color: red;
+  text-align: center;
+  font-size: 30px;
+}
